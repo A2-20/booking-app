@@ -12,9 +12,11 @@
 .swiftpm/
 migrate_working_dir/
 
-# Media files (large video recordings)
-*.mov
-*.mp4
+# Media files
+app.mov
+!assets/videos/booking_app_showcase.mp4
+!assets/images/showcase.gif
+
 
 # IntelliJ related
 *.iml
