@@ -1,46 +1,39 @@
 # Hotel & Travel Booking App
 
-# Flutter is a comprehensive app for booking hotels, flights, and travel packages, with support for both Arabic and English.
+A comprehensive Flutter application for booking hotels, flights, and travel packages, featuring full support for both English and Arabic languages.
 
+## Features
 
-# Flutter ## Features
+- ✅ User Login & Registration
+- ✅ Search Hotels, Flights, and Travel Packages
+- ✅ View Detailed Hotel Information & Room Options
+- ✅ Complete Reservation Flow
+- ✅ Manage Bookings (View Details & Cancel)
+- ✅ Integrated Mock Payment System
+- ✅ Dual Language Support (English & Arabic)
+- ✅ Offline-Ready Local Mock Data
 
-- ✅ Login and Registration
-- ✅ Search for Hotels, Flights, and Packages
-- ✅ View Hotel and Room Details
-- ✅ Make Reservations
-- ✅ Manage Reservations (View, Cancel)
-- ✅ Mock Payment System
-- ✅ Arabic and English Language Support
-- ✅ Local Data (Mock Data)
+## App Showcase
 
+![App Showcase](assets/images/showcase.gif)
 
-
-## Packages Used
+## Tech Stack & Packages
 
 - `provider` - State Management
 - `shared_preferences` - Local Storage
-- `intl` - Translation and Formatting
-- `flutter_localizations` - Language Support
+- `intl` - Date & Number Formatting
+- `flutter_localizations` - Multi-language Localization Support
 
-## Notes
+## Key Notes
 
-- All data is local and does not require an internet connection.
-- Mock Payment System
-- Suitable for demonstrations and prototypes
+- All application data is stored locally and does not require an active internet connection.
+- Includes a simulated payment gateway for demonstration.
+- Ideal for prototypes and portfolio demonstrations.
 
-## معاينة التطبيق
+## Future Enhancements
 
-![عرض التطبيق](assets/images/showcase.gif)
-
-> 📹 **مشاهدة الفيديو**: يمكنك تحميل أو فتح الفيديو بجودة عالية بصيغة MP4 من الرابط: [booking_app_showcase.mp4](assets/videos/booking_app_showcase.mp4)
-
-
-
-## Future Development
-
-- Connect to a Real Database
-- Connect to Real Payment Gateways
-- Add User Ratings
-- Notification System
-- Multi-Currency Support
+- Integration with a live backend database
+- Real payment gateway implementation (e.g., Stripe / HyperPay)
+- User reviews and rating system
+- Push notifications system
+- Multi-currency conversion support
